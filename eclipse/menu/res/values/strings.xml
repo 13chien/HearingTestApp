@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="entermail">Enter e-mail address</string>
+     		<string name="SPL">35</string>
+
+
+</resources>

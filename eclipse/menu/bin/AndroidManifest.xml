@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.menu"
+    android:versionCode="1" 
+    android:versionName="1.0">
+   	
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hearit"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" > 
+
+	   	     <activity
+            android:name="com.example.menu.mainpage"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+  
+         <activity
+            android:name="com.example.menu.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                  <activity
+            android:name="com.example.menu.Test"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                        <activity
+            android:name="com.example.menu.Help"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                          <activity
+            android:name="com.example.menu.Insertheadset"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                  <activity
+            android:name="com.example.menu.Results"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                       <activity
+            android:name="com.example.menu.Oneleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                   <activity
+            android:name="com.example.menu.Twoleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+  									                              <activity
+            android:name="com.example.menu.Threeleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+  								                                 <activity
+            android:name="com.example.menu.Fourleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+  								                                    <activity
+            android:name="com.example.menu.Fiveleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+  								                                       <activity
+            android:name="com.example.menu.Sixleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+  								                                          <activity
+            android:name="com.example.menu.Sevenleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+  								                                             <activity
+            android:name="com.example.menu.Eightleft"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                           <activity
+            android:name="com.example.menu.Oneright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                             <activity
+            android:name="com.example.menu.Tworight"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                                         <activity
+            android:name="com.example.menu.Threeright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                             <activity
+            android:name="com.example.menu.Fourright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                                             <activity
+            android:name="com.example.menu.Fiveright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity> 
+                                                                                                     <activity
+            android:name="com.example.menu.Sixright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                                                                                                                                              <activity
+            android:name="com.example.menu.Sevenright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+                                                                                         <activity
+            android:name="com.example.menu.Eightright"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>     
+                                                   
+    </application>
+    
+
+</manifest>

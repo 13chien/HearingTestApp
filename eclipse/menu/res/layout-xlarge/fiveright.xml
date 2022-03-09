@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fiveright">
+
+    <TextView
+        android:id="@+id/SPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/transparent" 
+        android:gravity="center"
+        android:text="@string/SPL"
+        android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/scrollbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitEnd"
+              android:layout_marginBottom="115dp"
+            android:src="@drawable/scrollbutt" />
+         <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="76dp"
+            android:background="@null"
+            android:onClick="next"
+            android:src="@drawable/fa" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:background="@null"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/imageButton1"
+            android:src="@drawable/ba" 
+            android:onClick="back"/>
+ 
+</RelativeLayout>
